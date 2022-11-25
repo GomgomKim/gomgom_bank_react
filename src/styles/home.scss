@@ -13,3 +13,26 @@
         
     }
 }
+
+$auth-color: #f3e5b6;
+
+.home-button {
+  display: inline-flex;
+  margin-bottom: 70px;
+  border-radius: 4px;
+  border: 2px solid #d8bb5d;
+  cursor: pointer;
+  font-weight: bold;
+  color:#b18d18;
+  height: 2.25rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  font-size: 1rem;
+  background: $auth-color;
+  &:hover {
+    background: lighten($auth-color, 10%);
+  }
+  &:active {
+    background: darken($auth-color, 10%);
+  }
+}
