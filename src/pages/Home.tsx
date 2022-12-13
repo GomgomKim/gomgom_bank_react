@@ -8,7 +8,7 @@ function Home() {
   };
 
   const getUserInfo = () => {
-
+    
   }
 
   return (
